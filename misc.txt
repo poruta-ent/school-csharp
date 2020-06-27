@@ -1,0 +1,7 @@
+> Create empty file from CMD:
+    cd . > filename.extension
+
+> Run program from CMD from console:
+    cmd call: dotnet run -- param
+      before -- parameters to dotnel CLI
+      after -- parameters to app
