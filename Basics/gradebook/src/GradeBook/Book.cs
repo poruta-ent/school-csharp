@@ -7,7 +7,7 @@ namespace GradeBook
     {
         public Book(string name)
         {
-            this.name = name;
+            Name = name;
             grades = new List<double>();
         }
         public void AddGrade(double grade)
@@ -15,45 +15,71 @@ namespace GradeBook
             grades.Add(grade);
         }
 
-        public double HighGrade() 
-        { 
-            grades.Sort();
-            return grades[grades.Count-1];
-        }
+        public Stats GetStats()
+        {
+            var bookStats = new Stats();
+            bookStats.Average = 0.0;
+            bookStats.High = 0.0;
+            bookStats.Low = 0.0;
 
-        public double LowGrade() 
-        { 
-            return grades[0];
-        }
-
-        public double AverageGrade() 
-        { 
-            var sum = 0.0;
-            foreach (double grade in grades)
+            if (grades.Count > 0)
             {
-                sum += grade;
-            }
-            if (grades.Count>0)
-            {
-                return sum / grades.Count;
-            }
-            else
-            {
-                return 0.0;
-            }
+                bookStats.High = double.MinValue;
+                bookStats.Low = double.MaxValue;
             
+                foreach (var grade in grades)
+                {
+                    bookStats.High = Math.Max(grade, bookStats.High);
+                    bookStats.Low = Math.Min(grade, bookStats.Low);
+                    bookStats.Average += grade;
+                }
+
+                bookStats.Average /= grades.Count; 
+
+                switch(bookStats.Average)
+                {
+                    case var d when d > 90.0:
+                        bookStats.LetterGrade = 'A';
+                        break;
+                    case var d when d > 80.0:
+                        bookStats.LetterGrade = 'B';
+                        break;
+                    case var d when d > 70.0:
+                        bookStats.LetterGrade = 'C';
+                        break;
+                    case var d when d > 60.0:
+                        bookStats.LetterGrade = 'D';
+                        break;
+                    case var d when d > 50.0:
+                        bookStats.LetterGrade = 'E';
+                        break;
+                    default:
+                        bookStats.LetterGrade = 'F';
+                        break;
+                }
+            }
+            return bookStats;
         }
 
         public void ShowStats()
         {
-            Console.WriteLine($"{name} stats:");
-            Console.WriteLine($"\thighest grade:\t{HighGrade():N1}");
-            Console.WriteLine($"\tlowest grade:\t{LowGrade():N1}");
-            Console.WriteLine($"\taverage grade:\t{AverageGrade():N1}");
+            var bookStats = GetStats();
+            Console.WriteLine($"{Name} stats:");
+            Console.WriteLine($"\thighest grade:\t{bookStats.High:N1}");
+            Console.WriteLine($"\tlowest grade:\t{bookStats.Low:N1}");
+            Console.WriteLine($"\taverage grade:\t{bookStats.Average:N1}");
+            Console.WriteLine($"\tsummary letter grade:\t{bookStats.LetterGrade}");
         }
 
         private List<double> grades;
-        private string name;
+        public string Name;
+        public int GradesNo 
+        { 
+            get
+            {
+                return grades.Count;
+            }
+        }
     }
 
     

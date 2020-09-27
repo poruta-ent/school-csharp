@@ -8,10 +8,26 @@ namespace GradeBook
         {
             
             var stephBook = new Book("Steph's book");
-            stephBook.AddGrade(12.9);
-            stephBook.AddGrade(7.3);
-            stephBook.AddGrade(19.7);
-            stephBook.AddGrade(2.1);
+
+            while (true)
+            {
+                Console.Clear();
+                Console.Write($"{stephBook.GradesNo} added. Enter new or 'q' to quit and calculate stats: ");
+                var input = Console.ReadLine();
+                if (input == "q")   
+                {
+                    break;
+                }
+                try
+                {
+                    stephBook.AddGrade(double.Parse(input));    
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+
             stephBook.ShowStats();
 
         }
