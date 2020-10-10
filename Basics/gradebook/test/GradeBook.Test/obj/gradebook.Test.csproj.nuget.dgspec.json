@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\School\\Basics\\gradebook\\test\\Gradebook.Test\\GradeBook.Test.csproj": {}
+    "C:\\repos\\School\\Basics\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj": {}
   },
   "projects": {
     "C:\\repos\\School\\Basics\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\repos\\School\\Basics\\gradebook\\test\\Gradebook.Test\\GradeBook.Test.csproj": {
+    "C:\\repos\\School\\Basics\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\School\\Basics\\gradebook\\test\\Gradebook.Test\\GradeBook.Test.csproj",
+        "projectUniqueName": "C:\\repos\\School\\Basics\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
         "projectName": "GradeBook.Test",
-        "projectPath": "C:\\repos\\School\\Basics\\gradebook\\test\\Gradebook.Test\\GradeBook.Test.csproj",
+        "projectPath": "C:\\repos\\School\\Basics\\gradebook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
         "packagesPath": "C:\\Users\\malachowskis\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\School\\Basics\\gradebook\\test\\Gradebook.Test\\obj\\",
+        "outputPath": "C:\\repos\\School\\Basics\\gradebook\\test\\GradeBook.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

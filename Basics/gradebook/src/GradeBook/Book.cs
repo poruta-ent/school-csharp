@@ -1,78 +1,102 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace GradeBook
 {
-    public class Book
+
+    public delegate void GradeAddedDelegate(object sender, EventArgs args);
+
+    public class NamedObject
     {
-        public Book(string name)
+        public NamedObject(string name)
         {
             Name = name;
-            grades = new List<double>();
-        }
-        public void AddGrade(double grade)
-        {
-            grades.Add(grade);
         }
 
-        public Stats GetStats()
+        public string Name { get; set; }
+    }
+
+    public interface IBook
+    {
+        void AddGrade(double grade);
+        Stats GetStats();
+        string Name {get;}
+        event GradeAddedDelegate GradeAdded; 
+    }
+ 
+    public abstract class Book : NamedObject, IBook
+    {
+        public Book(string name) : base(name)
+        {
+        }
+        public abstract event GradeAddedDelegate GradeAdded;
+        public abstract void AddGrade(double grade);
+        public abstract Stats GetStats();  
+    }
+
+    public class DiskBook : Book
+    {
+        public DiskBook(string name) : base(name)
+        {
+        }
+
+        public override event GradeAddedDelegate GradeAdded;
+
+        public override void AddGrade(double grade)
+        {
+            using (var writer = File.AppendText($"{Name}.txt"))
+            writer.WriteLine(grade);
+            if (GradeAdded!=null)
+            {
+                GradeAdded(this, new EventArgs());
+            }
+        }
+
+        public override Stats GetStats()
         {
             var bookStats = new Stats();
-            bookStats.Average = 0.0;
-            bookStats.High = 0.0;
-            bookStats.Low = 0.0;
-
-            if (grades.Count > 0)
+            using (var reader = File.OpenText($"{Name}.txt"))
             {
-                bookStats.High = double.MinValue;
-                bookStats.Low = double.MaxValue;
-            
-                foreach (var grade in grades)
+                var line = reader.ReadLine();
+                while (line != null)
                 {
-                    bookStats.High = Math.Max(grade, bookStats.High);
-                    bookStats.Low = Math.Min(grade, bookStats.Low);
-                    bookStats.Average += grade;
-                }
-
-                bookStats.Average /= grades.Count; 
-
-                switch(bookStats.Average)
-                {
-                    case var d when d > 90.0:
-                        bookStats.LetterGrade = 'A';
-                        break;
-                    case var d when d > 80.0:
-                        bookStats.LetterGrade = 'B';
-                        break;
-                    case var d when d > 70.0:
-                        bookStats.LetterGrade = 'C';
-                        break;
-                    case var d when d > 60.0:
-                        bookStats.LetterGrade = 'D';
-                        break;
-                    case var d when d > 50.0:
-                        bookStats.LetterGrade = 'E';
-                        break;
-                    default:
-                        bookStats.LetterGrade = 'F';
-                        break;
+                    bookStats.RecalculateStats(double.Parse(line));
+                    line = reader.ReadLine();
                 }
             }
             return bookStats;
         }
+    }
 
-        public void ShowStats()
+    public class InMemoryBook : Book
+    {
+        public InMemoryBook(string name) : base(name)
         {
-            var bookStats = GetStats();
-            Console.WriteLine($"{Name} stats:");
-            Console.WriteLine($"\thighest grade:\t{bookStats.High:N1}");
-            Console.WriteLine($"\tlowest grade:\t{bookStats.Low:N1}");
-            Console.WriteLine($"\taverage grade:\t{bookStats.Average:N1}");
-            Console.WriteLine($"\tsummary letter grade:\t{bookStats.LetterGrade}");
+            Name = name;
+            grades = new List<double>();
+        }
+        public override void AddGrade(double grade)
+        {
+            grades.Add(grade);
+            if (GradeAdded != null)
+            {
+                GradeAdded(this, new EventArgs());
+            }
+        }
+        public override event GradeAddedDelegate GradeAdded;
+        public override Stats GetStats()
+        {
+            var bookStats = new Stats();
+            foreach (var grade in grades)
+            {
+                bookStats.RecalculateStats(grade);
+            }
+            return bookStats;
         }
 
         private List<double> grades;
-        public string Name;
+       
         public int GradesNo 
         { 
             get

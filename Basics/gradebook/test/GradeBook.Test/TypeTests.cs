@@ -5,7 +5,35 @@ namespace GradeBook.Test
 {
     public class TypeTests
     {
-        
+
+        private int counter = 0;
+
+        public delegate string WriteToLogDelegate(string logMessage);
+
+        [Fact]
+        public void WriteLogDelegateCanPointToMethod()
+        {
+            WriteToLogDelegate log = ReturnMessage;
+            log += ReturnMessage;
+            log += ReturnMessage;
+            log += ReturnMessageToLower;
+            log -= ReturnMessage;
+            log("xxx");
+            Assert.Equal(3, counter);
+        }
+
+        private string ReturnMessageToLower (string message)
+        {
+            counter++;
+            return message.ToLower();
+        }
+
+        private string ReturnMessage(string message)
+        {
+            counter++;
+            return message;
+        }
+
         [Fact]
         public void StringBehavesLikeValueType()
         {
@@ -48,9 +76,9 @@ namespace GradeBook.Test
             
             Assert.Equal("New Name", book1.Name);
         }
-        private void GetBookSetName(ref Book book, string name)
+        private void GetBookSetName(ref InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
         }
         
         [Fact]
@@ -61,9 +89,9 @@ namespace GradeBook.Test
             
             Assert.Equal("Book 1", book1.Name);
         }
-        private void GetBookSetName(Book book, string name)
+        private void GetBookSetName(InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
         }
 
         [Fact]
@@ -75,7 +103,7 @@ namespace GradeBook.Test
             Assert.Equal("New Name", book1.Name);
         }
 
-        private void SetName(Book book, string name)
+        private void SetName(InMemoryBook book, string name)
         {
             book.Name = name;
         }
@@ -99,9 +127,9 @@ namespace GradeBook.Test
             Assert.Same(book1, book2);
             Assert.True(Object.ReferenceEquals(book1, book2));
         }
-        private Book GetBook(string name)
+        private InMemoryBook GetBook(string name)
         {
-            return new Book(name);
+            return new InMemoryBook(name);
         }
     }
 }
