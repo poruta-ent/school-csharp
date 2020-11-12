@@ -1,0 +1,13 @@
+C:\repos\School\Spoj\obj\Debug\netcoreapp3.1\Spoj.csprojAssemblyReference.cache
+C:\repos\School\Spoj\obj\Debug\netcoreapp3.1\Spoj.csproj.CoreCompileInputs.cache
+C:\repos\School\Spoj\obj\Debug\netcoreapp3.1\Spoj.AssemblyInfoInputs.cache
+C:\repos\School\Spoj\obj\Debug\netcoreapp3.1\Spoj.AssemblyInfo.cs
+C:\repos\School\Spoj\bin\Debug\netcoreapp3.1\Spoj.exe
+C:\repos\School\Spoj\bin\Debug\netcoreapp3.1\Spoj.deps.json
+C:\repos\School\Spoj\bin\Debug\netcoreapp3.1\Spoj.runtimeconfig.json
+C:\repos\School\Spoj\bin\Debug\netcoreapp3.1\Spoj.runtimeconfig.dev.json
+C:\repos\School\Spoj\bin\Debug\netcoreapp3.1\Spoj.dll
+C:\repos\School\Spoj\bin\Debug\netcoreapp3.1\Spoj.pdb
+C:\repos\School\Spoj\obj\Debug\netcoreapp3.1\Spoj.dll
+C:\repos\School\Spoj\obj\Debug\netcoreapp3.1\Spoj.pdb
+C:\repos\School\Spoj\obj\Debug\netcoreapp3.1\Spoj.genruntimeconfig.cache

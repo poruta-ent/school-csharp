@@ -1,2 +1,9 @@
-> Commnet       -> Ctrl+K+C
-> Uncomment     -> Ctrl+K+U
+> Commnet       -> Ctrl + K + C
+> Uncomment     -> Ctrl + K + U
+
+> Display list of files     -> Ctrl + TAB
+> Navigate the list         -> TAB (Ctrl pressed)
+
+> List of all files         -> Ctrl + P
+
+> Terminal - navigate/open/close  -> Ctrl + `
