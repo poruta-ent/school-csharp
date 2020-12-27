@@ -1,0 +1,9 @@
+C:\repos\School\Basics\oop\Commmon\bin\Debug\netstandard2.0\Commmon.deps.json
+C:\repos\School\Basics\oop\Commmon\bin\Debug\netstandard2.0\Commmon.dll
+C:\repos\School\Basics\oop\Commmon\bin\Debug\netstandard2.0\Commmon.pdb
+C:\repos\School\Basics\oop\Commmon\obj\Debug\netstandard2.0\Commmon.csprojAssemblyReference.cache
+C:\repos\School\Basics\oop\Commmon\obj\Debug\netstandard2.0\Commmon.csproj.CoreCompileInputs.cache
+C:\repos\School\Basics\oop\Commmon\obj\Debug\netstandard2.0\Commmon.AssemblyInfoInputs.cache
+C:\repos\School\Basics\oop\Commmon\obj\Debug\netstandard2.0\Commmon.AssemblyInfo.cs
+C:\repos\School\Basics\oop\Commmon\obj\Debug\netstandard2.0\Commmon.dll
+C:\repos\School\Basics\oop\Commmon\obj\Debug\netstandard2.0\Commmon.pdb

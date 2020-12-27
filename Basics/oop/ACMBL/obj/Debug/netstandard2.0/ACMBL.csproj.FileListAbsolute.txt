@@ -1,0 +1,12 @@
+C:\repos\School\Basics\oop\ACMBL\obj\Debug\netstandard2.0\ACMBL.csprojAssemblyReference.cache
+C:\repos\School\Basics\oop\ACMBL\obj\Debug\netstandard2.0\ACMBL.csproj.CoreCompileInputs.cache
+C:\repos\School\Basics\oop\ACMBL\obj\Debug\netstandard2.0\ACMBL.AssemblyInfoInputs.cache
+C:\repos\School\Basics\oop\ACMBL\obj\Debug\netstandard2.0\ACMBL.AssemblyInfo.cs
+C:\repos\School\Basics\oop\ACMBL\bin\Debug\netstandard2.0\ACMBL.deps.json
+C:\repos\School\Basics\oop\ACMBL\bin\Debug\netstandard2.0\ACMBL.dll
+C:\repos\School\Basics\oop\ACMBL\bin\Debug\netstandard2.0\ACMBL.pdb
+C:\repos\School\Basics\oop\ACMBL\obj\Debug\netstandard2.0\ACMBL.dll
+C:\repos\School\Basics\oop\ACMBL\obj\Debug\netstandard2.0\ACMBL.pdb
+C:\repos\School\Basics\oop\ACMBL\bin\Debug\netstandard2.0\Commmon.dll
+C:\repos\School\Basics\oop\ACMBL\bin\Debug\netstandard2.0\Commmon.pdb
+C:\repos\School\Basics\oop\ACMBL\obj\Debug\netstandard2.0\ACMBL.csproj.CopyComplete

@@ -1,1 +1,4 @@
 dotnet new console -n / --name "xxx"
+dotnet new --> wyświetla opcje
+dotnet add [<PROJECT>] reference [-f|--framework <FRAMEWORK>]
+     [--interactive] <PROJECT_REFERENCES>
