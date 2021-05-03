@@ -1,0 +1,12 @@
+C:\repos\School\Basics\Nulls\Nulls\bin\Debug\netcoreapp3.1\Nulls.exe
+C:\repos\School\Basics\Nulls\Nulls\bin\Debug\netcoreapp3.1\Nulls.deps.json
+C:\repos\School\Basics\Nulls\Nulls\bin\Debug\netcoreapp3.1\Nulls.runtimeconfig.json
+C:\repos\School\Basics\Nulls\Nulls\bin\Debug\netcoreapp3.1\Nulls.runtimeconfig.dev.json
+C:\repos\School\Basics\Nulls\Nulls\bin\Debug\netcoreapp3.1\Nulls.dll
+C:\repos\School\Basics\Nulls\Nulls\bin\Debug\netcoreapp3.1\Nulls.pdb
+C:\repos\School\Basics\Nulls\Nulls\obj\Debug\netcoreapp3.1\Nulls.csproj.CoreCompileInputs.cache
+C:\repos\School\Basics\Nulls\Nulls\obj\Debug\netcoreapp3.1\Nulls.AssemblyInfoInputs.cache
+C:\repos\School\Basics\Nulls\Nulls\obj\Debug\netcoreapp3.1\Nulls.AssemblyInfo.cs
+C:\repos\School\Basics\Nulls\Nulls\obj\Debug\netcoreapp3.1\Nulls.dll
+C:\repos\School\Basics\Nulls\Nulls\obj\Debug\netcoreapp3.1\Nulls.pdb
+C:\repos\School\Basics\Nulls\Nulls\obj\Debug\netcoreapp3.1\Nulls.genruntimeconfig.cache

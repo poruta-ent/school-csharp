@@ -1,0 +1,12 @@
+C:\repos\School\Basics\Nulls\RefactorNulls\bin\Debug\netcoreapp3.1\RefactorNulls.exe
+C:\repos\School\Basics\Nulls\RefactorNulls\bin\Debug\netcoreapp3.1\RefactorNulls.deps.json
+C:\repos\School\Basics\Nulls\RefactorNulls\bin\Debug\netcoreapp3.1\RefactorNulls.runtimeconfig.json
+C:\repos\School\Basics\Nulls\RefactorNulls\bin\Debug\netcoreapp3.1\RefactorNulls.runtimeconfig.dev.json
+C:\repos\School\Basics\Nulls\RefactorNulls\bin\Debug\netcoreapp3.1\RefactorNulls.dll
+C:\repos\School\Basics\Nulls\RefactorNulls\bin\Debug\netcoreapp3.1\RefactorNulls.pdb
+C:\repos\School\Basics\Nulls\RefactorNulls\obj\Debug\netcoreapp3.1\RefactorNulls.csproj.CoreCompileInputs.cache
+C:\repos\School\Basics\Nulls\RefactorNulls\obj\Debug\netcoreapp3.1\RefactorNulls.AssemblyInfoInputs.cache
+C:\repos\School\Basics\Nulls\RefactorNulls\obj\Debug\netcoreapp3.1\RefactorNulls.AssemblyInfo.cs
+C:\repos\School\Basics\Nulls\RefactorNulls\obj\Debug\netcoreapp3.1\RefactorNulls.dll
+C:\repos\School\Basics\Nulls\RefactorNulls\obj\Debug\netcoreapp3.1\RefactorNulls.pdb
+C:\repos\School\Basics\Nulls\RefactorNulls\obj\Debug\netcoreapp3.1\RefactorNulls.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RefactorNulls/1.0.0": {
+        "runtime": {
+          "RefactorNulls.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RefactorNulls/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

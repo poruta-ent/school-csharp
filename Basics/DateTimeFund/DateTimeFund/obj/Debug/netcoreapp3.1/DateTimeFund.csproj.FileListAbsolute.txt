@@ -1,0 +1,13 @@
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\bin\Debug\netcoreapp3.1\DateTimeFund.exe
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\bin\Debug\netcoreapp3.1\DateTimeFund.deps.json
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\bin\Debug\netcoreapp3.1\DateTimeFund.runtimeconfig.json
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\bin\Debug\netcoreapp3.1\DateTimeFund.runtimeconfig.dev.json
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\bin\Debug\netcoreapp3.1\DateTimeFund.dll
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\bin\Debug\netcoreapp3.1\DateTimeFund.pdb
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\obj\Debug\netcoreapp3.1\DateTimeFund.csprojAssemblyReference.cache
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\obj\Debug\netcoreapp3.1\DateTimeFund.csproj.CoreCompileInputs.cache
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\obj\Debug\netcoreapp3.1\DateTimeFund.AssemblyInfoInputs.cache
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\obj\Debug\netcoreapp3.1\DateTimeFund.AssemblyInfo.cs
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\obj\Debug\netcoreapp3.1\DateTimeFund.dll
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\obj\Debug\netcoreapp3.1\DateTimeFund.pdb
+C:\repos\School\Basics\DateTimeFund\DateTimeFund\obj\Debug\netcoreapp3.1\DateTimeFund.genruntimeconfig.cache

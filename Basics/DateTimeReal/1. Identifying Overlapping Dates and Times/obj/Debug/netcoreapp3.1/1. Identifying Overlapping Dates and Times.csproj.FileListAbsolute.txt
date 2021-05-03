@@ -1,0 +1,16 @@
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\bin\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.exe
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\bin\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.deps.json
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\bin\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.runtimeconfig.json
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\bin\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.runtimeconfig.dev.json
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\bin\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.dll
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\bin\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.pdb
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\bin\Debug\netcoreapp3.1\Shared.dll
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\bin\Debug\netcoreapp3.1\Shared.pdb
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\obj\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.csprojAssemblyReference.cache
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\obj\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.csproj.CoreCompileInputs.cache
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\obj\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.AssemblyInfoInputs.cache
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\obj\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.AssemblyInfo.cs
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\obj\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.csproj.CopyComplete
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\obj\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.dll
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\obj\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.pdb
+C:\repos\School\Basics\DateTimeReal\1. Identifying Overlapping Dates and Times\obj\Debug\netcoreapp3.1\1. Identifying Overlapping Dates and Times.genruntimeconfig.cache
